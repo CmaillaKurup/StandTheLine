@@ -2,14 +2,22 @@ namespace StandTheLine
 {
     public class Pearls
     {
-        private string colours = null;
+        private string _colors = null;
 
-        public string Colour
+        public string Color
         {
-            get { return this.colours; }
-            set { this.colours = value; }
+            get { return this._colors; }
+            set { this._colors = value; }
         }
-        
-        
+
+        public bool AddPeal()
+        {
+            return true;
+        }
+
+        public bool DeletePearl()
+        {
+            return true;
+        }
     }
 }
